@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(65, 85, 104);
+}
+/*for desktop*/
+.txt{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 120px;
+}
+
+.section{
+    background-color: rgb(90, 14, 58);
+    position: absolute;
+    width: 90%;
+    height: 600px;
+    padding: 10px 5px 20px 5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px -7px;
+    margin-top: 60px;
+    margin-left: 65px;
+    text-decoration: none;
+}
+.username::placeholder{
+    color: lightcoral;
+    font-size: 20px;
+    opacity: 70%;
+}
+.contact::placeholder{
+    color: lightcoral;
+    font-size: 20px;
+    opacity: 70%;
+}
+.username{
+    position: fixed;
+    margin-left: 35%;
+    width: 300px;
+    height: 30px;
+    color: rgb(114, 2, 2);
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.contact{
+    position: fixed;
+    margin-left: 35%;
+    width: 300px;
+    height: 30px;
+    color: rgb(114, 2, 2);
+    margin-top: 100px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.login{
+    position: fixed;
+    width: 305px;
+    height: 60px;
+    margin-top: 170px;
+    margin-left: 35%;
+    background-color: rgb(11, 144, 221);
+    border-radius: 15px;
+
+}
+.login a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer{
+    position: absolute;
+    margin-top: 710px;
+    margin-left: 700px;
+}
+.footer h1{
+    color: rgb(17, 18, 78);
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 5px;
+}
+ 
+/*for mobile*/
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(115, 175, 185);
+      margin-left: 30px;
+      margin-right: 30px;
+      position: absolute;
+    }
+    
+    .section{
+        background-color: rgb(14, 19, 90);
+        position: absolute;
+        width: 375px;
+        height: 550px;
+        padding: 10px 5px 20px 5px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 6px -7px;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+    .txt{
+        position: absolute;
+        margin-top: 0px;
+    }
+    input{
+        font-size: 20px;
+        color: darkblue;
+    }
+    .username{
+        position: absolute;
+        width: 300px;
+        height: 30px;
+        color: rgb(6, 146, 48);
+        margin-top: 88%;
+        margin-left: 30px;
+
+    }
+    .username::placeholder{
+        color: cadetblue;
+        font-size: 20px;
+        margin-top: 5px;
+        font-family: cursive;
+    }
+    .contact{
+        position: absolute;
+        margin-left: 30px;
+        width: 300px;
+        height: 30px;
+        color: rgb(6, 146, 48);
+        margin-top: 105%;
+    }
+   .contact::placeholder{
+       color: cadetblue;
+       font-size: 20px;
+        margin-top: 5px;
+        font-family: cursive;
+   }
+    .login{
+        position: absolute;
+        width: 300px;
+        height: 60px;
+        margin-top: 125%;
+        margin-left: 33px;
+        background: rgb(11, 144, 221);
+        color: #FFF;
+        border-radius: 15px;
+    }
+    
+    .login a{
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .footer{
+        position: fixed;
+        margin-top: 690px;
+        margin-left: 90px;
+    }
+    .copyright h1{
+        color: rgb(17, 18, 78);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+  }
+  
